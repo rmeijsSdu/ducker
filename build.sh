@@ -1,4 +1,4 @@
-version="0.2"
+version="0.3"
 docker build -t ducker:$version .
 docker tag ducker:$version sinnerr/ducker:$version
 docker tag ducker:$version sinnerr/ducker:latest
